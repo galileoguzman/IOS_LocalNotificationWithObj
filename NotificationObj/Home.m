@@ -31,7 +31,7 @@
 
 -(void)initController{
     // ARRAY IMAGE
-    NSArray *image_array = @[];
+    NSArray *image_array = @[@"1.png",@"2.png",@"3.png",@"4.png",@"5.png",@"6.png"];
     
     // IMAGE
     self.imgSuperHero.hidden = YES;
@@ -43,6 +43,7 @@
                                 @"surname" : [NSString stringWithFormat:@"Guzmán"],
                                 @"job title" : [NSString stringWithFormat:@"Full Stack Engineer"],
                                 @"age" : [NSNumber numberWithInt:26],
+                                @"image_hero": [NSNumber numberWithInt:arc4random_uniform(5)]
                                 };
     
     // NOTIFICATION SETUP
