@@ -19,7 +19,7 @@
 		F2D25A791C72694F002F9CFC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A731C72694F002F9CFC /* 3.png */; };
 		F2D25A7A1C72694F002F9CFC /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A741C72694F002F9CFC /* 4.png */; };
 		F2D25A7B1C72694F002F9CFC /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A751C72694F002F9CFC /* 5.png */; };
-		F2D25A7C1C72694F002F9CFC /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A761C72694F002F9CFC /* 6.png */; };
+		F2D25A7F1C726E4A002F9CFC /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A7E1C726E4A002F9CFC /* 0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		F2D25A731C72694F002F9CFC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		F2D25A741C72694F002F9CFC /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		F2D25A751C72694F002F9CFC /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
-		F2D25A761C72694F002F9CFC /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		F2D25A7E1C726E4A002F9CFC /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,13 +97,13 @@
 		F2D25A7D1C726954002F9CFC /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				F2D25A7E1C726E4A002F9CFC /* 0.png */,
 				F2D25A6F1C726406002F9CFC /* pum.mp3 */,
 				F2D25A711C72694F002F9CFC /* 1.png */,
 				F2D25A721C72694F002F9CFC /* 2.png */,
 				F2D25A731C72694F002F9CFC /* 3.png */,
 				F2D25A741C72694F002F9CFC /* 4.png */,
 				F2D25A751C72694F002F9CFC /* 5.png */,
-				F2D25A761C72694F002F9CFC /* 6.png */,
 			);
 			name = Media;
 			sourceTree = "<group>";
@@ -169,9 +169,9 @@
 				F2D25A681C7260AB002F9CFC /* LaunchScreen.storyboard in Resources */,
 				F2D25A651C7260AB002F9CFC /* Assets.xcassets in Resources */,
 				F2D25A631C7260AB002F9CFC /* Main.storyboard in Resources */,
-				F2D25A7C1C72694F002F9CFC /* 6.png in Resources */,
 				F2D25A7A1C72694F002F9CFC /* 4.png in Resources */,
 				F2D25A701C726406002F9CFC /* pum.mp3 in Resources */,
+				F2D25A7F1C726E4A002F9CFC /* 0.png in Resources */,
 				F2D25A7B1C72694F002F9CFC /* 5.png in Resources */,
 				F2D25A791C72694F002F9CFC /* 3.png in Resources */,
 				F2D25A771C72694F002F9CFC /* 1.png in Resources */,
