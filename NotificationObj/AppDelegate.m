@@ -57,6 +57,9 @@
                                     
                                     NSLog(@"User name is :%@", user_name);
                                     
+                                    // Post a notification to loginComplete
+                                    [[NSNotificationCenter defaultCenter] postNotificationName:@"showImageFromNotification" object:nil userInfo:notification.userInfo];
+                                    
                                     
                                 }];
     // Create AlertAction object with title and handler (optional)

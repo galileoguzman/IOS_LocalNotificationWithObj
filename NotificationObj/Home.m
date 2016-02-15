@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // Add an observer that will respond to loginComplete
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(showImageFromNotification:)
+                                                 name:@"showImageFromNotification" object:nil];
+    
     
     
     [self initController];
@@ -58,5 +63,16 @@
     
     [[UIApplication sharedApplication] scheduleLocalNotification:notification];
 }
+
+// the function specified in the same class where we defined the addObserver
+- (void)showImageFromNotification:(NSNotification *)notification {
+    
+    NSString *stImageHero =[NSString stringWithFormat:@"%@.png",[notification.userInfo objectForKey:@"image_hero"]];
+    
+    self.imgSuperHero.hidden = NO;
+    self.imgSuperHero.image = [UIImage imageNamed:stImageHero];
+    
+}
+
 
 @end
