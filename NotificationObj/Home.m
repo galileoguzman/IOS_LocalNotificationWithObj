@@ -30,11 +30,26 @@
 }
 
 -(void)initController{
+    
+    
+    // USER INFO FOR NOTIFICATION
+    
+    NSDictionary *user_info = @{
+                                @"name" : [NSString stringWithFormat:@"Galileo"],
+                                @"surname" : [NSString stringWithFormat:@"Guzmán"],
+                                @"job title" : [NSString stringWithFormat:@"Full Stack Engineer"],
+                                @"age" : [NSNumber numberWithInt:26],
+                                };
+    
+    // NOTIFICATION SETUP
     UILocalNotification *notification = [[UILocalNotification alloc] init];
     notification.fireDate = [NSDate dateWithTimeIntervalSinceNow:6];
     notification.alertBody = @"This is local notification!";
     notification.timeZone = [NSTimeZone defaultTimeZone];
     notification.soundName = @"pum.mp3";
+    
+    // ADD USER INFO FOR SEND INTO NOTIFICATION
+    notification.userInfo = user_info;
     
     [[UIApplication sharedApplication] scheduleLocalNotification:notification];
 }
