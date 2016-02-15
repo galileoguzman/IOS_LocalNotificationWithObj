@@ -14,6 +14,12 @@
 		F2D25A651C7260AB002F9CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A641C7260AB002F9CFC /* Assets.xcassets */; };
 		F2D25A681C7260AB002F9CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A661C7260AB002F9CFC /* LaunchScreen.storyboard */; };
 		F2D25A701C726406002F9CFC /* pum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A6F1C726406002F9CFC /* pum.mp3 */; };
+		F2D25A771C72694F002F9CFC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A711C72694F002F9CFC /* 1.png */; };
+		F2D25A781C72694F002F9CFC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A721C72694F002F9CFC /* 2.png */; };
+		F2D25A791C72694F002F9CFC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A731C72694F002F9CFC /* 3.png */; };
+		F2D25A7A1C72694F002F9CFC /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A741C72694F002F9CFC /* 4.png */; };
+		F2D25A7B1C72694F002F9CFC /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A751C72694F002F9CFC /* 5.png */; };
+		F2D25A7C1C72694F002F9CFC /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D25A761C72694F002F9CFC /* 6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		F2D25A671C7260AB002F9CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2D25A691C7260AB002F9CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2D25A6F1C726406002F9CFC /* pum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pum.mp3; sourceTree = "<group>"; };
+		F2D25A711C72694F002F9CFC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F2D25A721C72694F002F9CFC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		F2D25A731C72694F002F9CFC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		F2D25A741C72694F002F9CFC /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		F2D25A751C72694F002F9CFC /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		F2D25A761C72694F002F9CFC /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +72,7 @@
 		F2D25A571C7260AB002F9CFC /* NotificationObj */ = {
 			isa = PBXGroup;
 			children = (
-				F2D25A6F1C726406002F9CFC /* pum.mp3 */,
+				F2D25A7D1C726954002F9CFC /* Media */,
 				F2D25A5B1C7260AB002F9CFC /* AppDelegate.h */,
 				F2D25A5C1C7260AB002F9CFC /* AppDelegate.m */,
 				F2D25A5E1C7260AB002F9CFC /* Home.h */,
@@ -80,6 +92,20 @@
 				F2D25A591C7260AB002F9CFC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2D25A7D1C726954002F9CFC /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				F2D25A6F1C726406002F9CFC /* pum.mp3 */,
+				F2D25A711C72694F002F9CFC /* 1.png */,
+				F2D25A721C72694F002F9CFC /* 2.png */,
+				F2D25A731C72694F002F9CFC /* 3.png */,
+				F2D25A741C72694F002F9CFC /* 4.png */,
+				F2D25A751C72694F002F9CFC /* 5.png */,
+				F2D25A761C72694F002F9CFC /* 6.png */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,10 +165,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D25A781C72694F002F9CFC /* 2.png in Resources */,
 				F2D25A681C7260AB002F9CFC /* LaunchScreen.storyboard in Resources */,
 				F2D25A651C7260AB002F9CFC /* Assets.xcassets in Resources */,
 				F2D25A631C7260AB002F9CFC /* Main.storyboard in Resources */,
+				F2D25A7C1C72694F002F9CFC /* 6.png in Resources */,
+				F2D25A7A1C72694F002F9CFC /* 4.png in Resources */,
 				F2D25A701C726406002F9CFC /* pum.mp3 in Resources */,
+				F2D25A7B1C72694F002F9CFC /* 5.png in Resources */,
+				F2D25A791C72694F002F9CFC /* 3.png in Resources */,
+				F2D25A771C72694F002F9CFC /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
