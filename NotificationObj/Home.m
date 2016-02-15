@@ -31,10 +31,10 @@
 
 -(void)initController{
     UILocalNotification *notification = [[UILocalNotification alloc] init];
-    notification.fireDate = [NSDate dateWithTimeIntervalSinceNow:20];
+    notification.fireDate = [NSDate dateWithTimeIntervalSinceNow:6];
     notification.alertBody = @"This is local notification!";
     notification.timeZone = [NSTimeZone defaultTimeZone];
-    notification.soundName = UILocalNotificationDefaultSoundName;
+    notification.soundName = @"pum.mp3";
     
     [[UIApplication sharedApplication] scheduleLocalNotification:notification];
 }
