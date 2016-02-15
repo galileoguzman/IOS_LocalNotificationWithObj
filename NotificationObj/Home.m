@@ -30,6 +30,8 @@
 }
 
 -(void)initController{
+    // ARRAY IMAGE
+    NSArray *image_array = @[];
     
     // IMAGE
     self.imgSuperHero.hidden = YES;
