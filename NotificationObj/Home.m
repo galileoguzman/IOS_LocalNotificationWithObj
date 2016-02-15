@@ -31,6 +31,8 @@
 
 -(void)initController{
     
+    // IMAGE
+    self.imgSuperHero.hidden = YES;
     
     // USER INFO FOR NOTIFICATION
     

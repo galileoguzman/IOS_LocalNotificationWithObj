@@ -52,7 +52,10 @@
                                 style:UIAlertActionStyleDefault
                                 handler:^(UIAlertAction * action)
                                 {
-                                    //Handel your yes please button action here
+                                    //Handle your yes please button action here
+                                    NSString *user_name = [notification.userInfo objectForKey:@"name"];
+                                    
+                                    NSLog(@"User name is :%@", user_name);
                                     
                                     
                                 }];

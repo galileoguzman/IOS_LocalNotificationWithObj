@@ -11,5 +11,6 @@
 @interface Home : UIViewController
 
 
+@property (strong, nonatomic) IBOutlet UIImageView *imgSuperHero;
 @end
 
